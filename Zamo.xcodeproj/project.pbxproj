@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61FABE227AB03E60042BF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FABE127AB03E60042BF3F /* AppDelegate.swift */; };
+		A61FABE427AB03E60042BF3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FABE327AB03E60042BF3F /* SceneDelegate.swift */; };
+		A61FABE627AB03E60042BF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FABE527AB03E60042BF3F /* ViewController.swift */; };
+		A61FABE927AB03E60042BF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61FABE727AB03E60042BF3F /* Main.storyboard */; };
+		A61FABEB27AB03E70042BF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61FABEA27AB03E70042BF3F /* Assets.xcassets */; };
+		A61FABEE27AB03E70042BF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61FABEC27AB03E70042BF3F /* LaunchScreen.storyboard */; };
+		A61FABF927AB03E80042BF3F /* ZamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FABF827AB03E80042BF3F /* ZamoTests.swift */; };
+		A61FAC0427AB03E80042BF3F /* ZamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FAC0327AB03E80042BF3F /* ZamoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61FABF527AB03E80042BF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61FABD627AB03E60042BF3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61FABDD27AB03E60042BF3F;
+			remoteInfo = Zamo;
+		};
+		A61FAC0027AB03E80042BF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61FABD627AB03E60042BF3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61FABDD27AB03E60042BF3F;
+			remoteInfo = Zamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61FABDE27AB03E60042BF3F /* Zamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61FABE127AB03E60042BF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A61FABE327AB03E60042BF3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A61FABE527AB03E60042BF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A61FABE827AB03E60042BF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A61FABEA27AB03E70042BF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61FABED27AB03E70042BF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A61FABEF27AB03E70042BF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61FABF427AB03E80042BF3F /* ZamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61FABF827AB03E80042BF3F /* ZamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamoTests.swift; sourceTree = "<group>"; };
+		A61FABFA27AB03E80042BF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61FABFF27AB03E80042BF3F /* ZamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61FAC0327AB03E80042BF3F /* ZamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamoUITests.swift; sourceTree = "<group>"; };
+		A61FAC0527AB03E80042BF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61FABDB27AB03E60042BF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABF127AB03E80042BF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABFC27AB03E80042BF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61FABD527AB03E60042BF3F = {
+			isa = PBXGroup;
+			children = (
+				A61FABE027AB03E60042BF3F /* Zamo */,
+				A61FABF727AB03E80042BF3F /* ZamoTests */,
+				A61FAC0227AB03E80042BF3F /* ZamoUITests */,
+				A61FABDF27AB03E60042BF3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61FABDF27AB03E60042BF3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61FABDE27AB03E60042BF3F /* Zamo.app */,
+				A61FABF427AB03E80042BF3F /* ZamoTests.xctest */,
+				A61FABFF27AB03E80042BF3F /* ZamoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61FABE027AB03E60042BF3F /* Zamo */ = {
+			isa = PBXGroup;
+			children = (
+				A61FABE127AB03E60042BF3F /* AppDelegate.swift */,
+				A61FABE327AB03E60042BF3F /* SceneDelegate.swift */,
+				A61FABE527AB03E60042BF3F /* ViewController.swift */,
+				A61FABE727AB03E60042BF3F /* Main.storyboard */,
+				A61FABEA27AB03E70042BF3F /* Assets.xcassets */,
+				A61FABEC27AB03E70042BF3F /* LaunchScreen.storyboard */,
+				A61FABEF27AB03E70042BF3F /* Info.plist */,
+			);
+			path = Zamo;
+			sourceTree = "<group>";
+		};
+		A61FABF727AB03E80042BF3F /* ZamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61FABF827AB03E80042BF3F /* ZamoTests.swift */,
+				A61FABFA27AB03E80042BF3F /* Info.plist */,
+			);
+			path = ZamoTests;
+			sourceTree = "<group>";
+		};
+		A61FAC0227AB03E80042BF3F /* ZamoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A61FAC0327AB03E80042BF3F /* ZamoUITests.swift */,
+				A61FAC0527AB03E80042BF3F /* Info.plist */,
+			);
+			path = ZamoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61FABDD27AB03E60042BF3F /* Zamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61FAC0827AB03E80042BF3F /* Build configuration list for PBXNativeTarget "Zamo" */;
+			buildPhases = (
+				A61FABDA27AB03E60042BF3F /* Sources */,
+				A61FABDB27AB03E60042BF3F /* Frameworks */,
+				A61FABDC27AB03E60042BF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zamo;
+			productName = Zamo;
+			productReference = A61FABDE27AB03E60042BF3F /* Zamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61FABF327AB03E80042BF3F /* ZamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61FAC0B27AB03E80042BF3F /* Build configuration list for PBXNativeTarget "ZamoTests" */;
+			buildPhases = (
+				A61FABF027AB03E80042BF3F /* Sources */,
+				A61FABF127AB03E80042BF3F /* Frameworks */,
+				A61FABF227AB03E80042BF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61FABF627AB03E80042BF3F /* PBXTargetDependency */,
+			);
+			name = ZamoTests;
+			productName = ZamoTests;
+			productReference = A61FABF427AB03E80042BF3F /* ZamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A61FABFE27AB03E80042BF3F /* ZamoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61FAC0E27AB03E80042BF3F /* Build configuration list for PBXNativeTarget "ZamoUITests" */;
+			buildPhases = (
+				A61FABFB27AB03E80042BF3F /* Sources */,
+				A61FABFC27AB03E80042BF3F /* Frameworks */,
+				A61FABFD27AB03E80042BF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61FAC0127AB03E80042BF3F /* PBXTargetDependency */,
+			);
+			name = ZamoUITests;
+			productName = ZamoUITests;
+			productReference = A61FABFF27AB03E80042BF3F /* ZamoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61FABD627AB03E60042BF3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A61FABDD27AB03E60042BF3F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A61FABF327AB03E80042BF3F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A61FABDD27AB03E60042BF3F;
+					};
+					A61FABFE27AB03E80042BF3F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A61FABDD27AB03E60042BF3F;
+					};
+				};
+			};
+			buildConfigurationList = A61FABD927AB03E60042BF3F /* Build configuration list for PBXProject "Zamo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61FABD527AB03E60042BF3F;
+			productRefGroup = A61FABDF27AB03E60042BF3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61FABDD27AB03E60042BF3F /* Zamo */,
+				A61FABF327AB03E80042BF3F /* ZamoTests */,
+				A61FABFE27AB03E80042BF3F /* ZamoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61FABDC27AB03E60042BF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61FABEE27AB03E70042BF3F /* LaunchScreen.storyboard in Resources */,
+				A61FABEB27AB03E70042BF3F /* Assets.xcassets in Resources */,
+				A61FABE927AB03E60042BF3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABF227AB03E80042BF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABFD27AB03E80042BF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61FABDA27AB03E60042BF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61FABE627AB03E60042BF3F /* ViewController.swift in Sources */,
+				A61FABE227AB03E60042BF3F /* AppDelegate.swift in Sources */,
+				A61FABE427AB03E60042BF3F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABF027AB03E80042BF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61FABF927AB03E80042BF3F /* ZamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61FABFB27AB03E80042BF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61FAC0427AB03E80042BF3F /* ZamoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61FABF627AB03E80042BF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61FABDD27AB03E60042BF3F /* Zamo */;
+			targetProxy = A61FABF527AB03E80042BF3F /* PBXContainerItemProxy */;
+		};
+		A61FAC0127AB03E80042BF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61FABDD27AB03E60042BF3F /* Zamo */;
+			targetProxy = A61FAC0027AB03E80042BF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A61FABE727AB03E60042BF3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61FABE827AB03E60042BF3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A61FABEC27AB03E70042BF3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61FABED27AB03E70042BF3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61FAC0627AB03E80042BF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A61FAC0727AB03E80042BF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61FAC0927AB03E80042BF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = Zamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.Zamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61FAC0A27AB03E80042BF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = Zamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.Zamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A61FAC0C27AB03E80042BF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = ZamoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.ZamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zamo.app/Zamo";
+			};
+			name = Debug;
+		};
+		A61FAC0D27AB03E80042BF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = ZamoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.ZamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zamo.app/Zamo";
+			};
+			name = Release;
+		};
+		A61FAC0F27AB03E80042BF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = ZamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.ZamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zamo;
+			};
+			name = Debug;
+		};
+		A61FAC1027AB03E80042BF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				INFOPLIST_FILE = ZamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniel.ZamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zamo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61FABD927AB03E60042BF3F /* Build configuration list for PBXProject "Zamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61FAC0627AB03E80042BF3F /* Debug */,
+				A61FAC0727AB03E80042BF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61FAC0827AB03E80042BF3F /* Build configuration list for PBXNativeTarget "Zamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61FAC0927AB03E80042BF3F /* Debug */,
+				A61FAC0A27AB03E80042BF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61FAC0B27AB03E80042BF3F /* Build configuration list for PBXNativeTarget "ZamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61FAC0C27AB03E80042BF3F /* Debug */,
+				A61FAC0D27AB03E80042BF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61FAC0E27AB03E80042BF3F /* Build configuration list for PBXNativeTarget "ZamoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61FAC0F27AB03E80042BF3F /* Debug */,
+				A61FAC1027AB03E80042BF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61FABD627AB03E60042BF3F /* Project object */;
+}
