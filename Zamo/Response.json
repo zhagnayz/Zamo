@@ -1,0 +1,44 @@
+[{
+    "name":"Thai Bloom",
+    "image": "food",
+    "description": "Thai",
+    "cuisine": "Asian",
+    "address": "3800 SW Cedar Hills Blvd, Beaverton, OR 97005",
+    "distance": 3.3,
+    "reviewRating": 4,
+    "costRating": 2,
+    "operationHours": "11:00 PM - 10:00 PM",
+    
+    "menuItem":[{
+        
+        "id": 1,
+        "name": "Pad Thai",
+        "price": 15.99,
+        "details":"rice noodles,egg,shallot,turnip,grren onion,sprouts,topped with peanut curmbles & lime wedge",
+        "image":"food2",
+        "quantity":0,
+        
+        "protein": [
+            {"name":"Regular","price":0,"isSelected":false},
+            {"name":"Frid ToFu","price":1,"isSelected":false},
+            {"name":"Fresh Tofu","price":2,"isSelected":false}
+        ],
+        
+        "spice":[{"name":"spice 1X","isSelected":false},
+            {"name":"spice 2XX","isSelected":false}
+        ],
+        
+        "allergy":[{"name":"Gluten Free","isSelected":false},
+            {"name":"Vegan","isSelected":false},
+            {"name":"Shellfish ALLERGY","isSelected":false}
+        ],
+        
+        "garnishes":[
+            {"name":"Baby Corn","price":1,"isSelected":false},
+            {"name":"Bamboo Shoot","price":2,"isSelected":false},
+            {"name":"Basil","price":1,"isSelected":false}
+        ]
+    }
+    ]
+}]
+ 
